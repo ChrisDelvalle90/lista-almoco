@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(241, 241, 235);
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(63, 63, 63);
+}
+
+.formulario{
+    background-color: rgb(10, 173, 202);
+    width: 800px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 3px 3px 10px gray
+}
+
+.formulario input:not([type=checkbox])
+{
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    width: 95%;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+button{
+    border: 1%;
+    border-radius: 3px;
+    background-color: rgb(121, 121, 120);
+    color: white;
+    padding: 5px 10px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+button:hover{
+    background-color: rgb(245, 21, 21);
+}
+
+.prato{
+    border: 2px solid gray;
+    margin-bottom: 10px;
+    width: 95%;
+    font-family: sans-serif;
+    font-size: 15px;
+    outline: none;
+}
