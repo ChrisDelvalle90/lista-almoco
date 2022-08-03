@@ -53,3 +53,7 @@ button:hover{
     font-size: 15px;
     outline: none;
 }
+
+img{
+    width: 200px;
+}

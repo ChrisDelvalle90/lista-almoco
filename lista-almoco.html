@@ -16,7 +16,7 @@
         <div>
             <textarea class="prato" name="" id="addDescricao" cols="30" rows="10" placeholder="Digite aqui a descrição do prato"></textarea>
             <input id="valorPrato" type="number" placeholder="Digite aqui o valor do prato">
-            <input id="urlPrato" type="text" placeholder="Digite aqui a URL da imagem do prato">
+            <input id="urlPrato" type="url" placeholder="Digite aqui a URL da imagem do prato">
             <button class="adicionar" onclick="adicionaPrato()">Adicionar</button>
         </div>
         <div>
@@ -24,12 +24,12 @@
         </div>
 
         <div>
-            <input type="text" placeholder="Digite aqui sua busca">
+            <input id="campoBusca" type="search" placeholder="Digite aqui sua busca">
             <input type="checkbox">Apenas entrega grátis
         </div>
         <div>
-            <button>Filtrar</button>
-            <button>Limpar filtros</button>
+            <button onclick="filtrar()">Filtrar</button>
+            <button onclick="limpar()">Limpar filtros</button>
         </div>
         <section id="catalogo"></section>
     </div>
